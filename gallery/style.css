@@ -1,22 +1,19 @@
 
-
-  .body {
-    margin: 50px;
+  body {
     font-family: Rubik, sans-serif;
     font-weight: 300;
   }
   
-  .header {
+  header {
     text-align: center;
     padding: 32px;
   }
-  .h1 {
+  
+  h1 {
     font-family: Rubik, sans-serif;
     font-size: large;
     font-weight: 500;
-
-
-}
+  }
 
   .row {
     display: -ms-flexbox;
