@@ -1,0 +1,102 @@
+
+.title {
+    /* article title */
+    font-family: rubik, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: #fff; 
+    color: #2D2D2D;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #9ACACD;
+    padding: 20px 25px;
+
+
+}
+
+h2 {
+    /* article date */
+    font-family: rubik mono one, sans-serif;
+    font-size: 1em;
+    
+}
+
+p {
+    font-family: rubik, sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 475px;
+}
+
+.logo {
+    font-family: rubik mono one, sans-serif;
+    font-size: 1.5em;
+    float: left;
+    margin-left: 35px;
+    background-color: #9ACACD; /* dk teal background */
+    border: none; 
+    border-radius: 10px 10px 0px 0px;
+    color: #2D2D2D; /*text color*/
+    padding: 10px 25px;
+
+}
+.logo span {
+    font-family: rubik, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.nav_tabs button {
+    background-color: #CCE4E6; /* LT teal background */
+    border: none; 
+    border-radius: 10px 10px 0px 0px;
+    color: #2D2D2D; /*text color*/
+    padding: 10px 25px; /* Some padding */
+    margin-right: 35px; 
+    cursor: pointer; /* Pointer/hand icon */
+    float: right;  /* Float the buttons side by side */
+    text-align: center;
+    vertical-align: center;
+    font-family: rubik, sans-serif;
+    font-weight: regular;
+    font-size: 1.125rem;
+    
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .nav_tabs:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .nav_tabs:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .nav_tabs button:hover {
+    background-color: #9ACACD;
+  }
+
+  
+.folder {
+    background-color: #9ACACD;
+}
+
+.paper {
+    background-color: #fff;
+    width: 950px;
+    border: #2D2D2D;
+    border-style: solid;
+    border-width: .25px;
+    padding-left:  75px;
+    padding-top: 75px;
+    padding-bottom: 175px;
+    padding-right: 135px;
+    margin-left: 135px;
+
+
+}
