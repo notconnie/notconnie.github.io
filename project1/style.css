@@ -1,19 +1,80 @@
-
-.title {
-    /* article title */
-    font-family: rubik, sans-serif;
-    font-size: 28px;
-    font-weight: 600;
-    background-color: #fff; 
-    color: #2D2D2D;
-    border-style: solid;
-    border-width: 6px;
-    border-radius: 10px;
-    border-color: #9ACACD;
-    padding: 20px 25px;
-
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
 
 }
+
+#banner{
+background: linear-gradient(rgba(0, 0, 0, 0.25), #9ACACD), url(p1_images/paper_texture.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
+
+.logo{
+  width: 25px;
+  position: absolute;
+  top: 4%;
+  left: 100px;
+}
+
+.banner-text{
+  text-align: left;
+  color: #2D2D2D;
+  padding-top: 225px;
+padding-left: 100px;
+
+}
+
+.banner-text h1{
+    font-family: rubik mono one, sans-serif;
+    font-size: 62px;
+    letter-spacing: .125em;
+}
+
+.banner-text p{
+  font-family: rubik, sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.banner-btn{
+  margin: 70px auto 0;
+}
+
+.banner-btn a{
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 0;
+color: #2D2D2D;
+border: none;
+border-radius: 10px;
+background-color: #9ACACD;  
+text-align: center;
+vertical-align: center;
+font-family: rubik, sans-serif;
+font-weight: regular;
+font-size: 1.125rem;
+cursor: pointer;
+position: relative;
+
+}
+
+
+.banner-btn a:hover{
+  background-color: #CCE4E6;
+  font-weight: 600;
+  letter-spacing: .125em;
+}
+
+
+
+
 
 h2 {
     /* article date */
@@ -30,23 +91,8 @@ p {
     width: 475px;
 }
 
-.logo {
-    font-family: rubik mono one, sans-serif;
-    font-size: 1.5em;
-    float: left;
-    margin-left: 35px;
-    background-color: #9ACACD; /* dk teal background */
-    border: none; 
-    border-radius: 10px 10px 0px 0px;
-    color: #2D2D2D; /*text color*/
-    padding: 10px 25px;
 
-}
-.logo span {
-    font-family: rubik, sans-serif;
-    font-size: 14px;
-    font-style: italic;
-}
+
 
 .nav_tabs button {
     background-color: #CCE4E6; /* LT teal background */
@@ -97,6 +143,23 @@ p {
     padding-bottom: 175px;
     padding-right: 135px;
     margin-left: 135px;
+
+
+}
+
+
+.title {
+  /* article title */
+  font-family: rubik, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  background-color: #fff; 
+  color: #2D2D2D;
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 10px;
+  border-color: #9ACACD;
+  padding: 20px 25px;
 
 
 }
