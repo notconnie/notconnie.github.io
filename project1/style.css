@@ -65,14 +65,15 @@ padding-left: 100px;
 
 .banner-btn{
   margin: 70px auto 0;
+
 }
 
 .banner-btn a{
-  width: 150px;
+  width: fit-content;
   text-decoration: none;
   display: inline-block;
   margin: 0 10px;
-  padding: 10px 0;
+  padding: 10px 20px;
 color: #2D2D2D;
 border: none;
 border-radius: 10px;
@@ -148,7 +149,7 @@ p {
   /* Add a background color on hover */
   .nav_tabs button:hover {
     background-color: #9ACACD;
-    color: #EAAE6A;
+
 
   }
 
@@ -220,6 +221,7 @@ p {
   font-size: 1.125rem;
   text-decoration: none;
   margin-top:2%;
+  width: fit-content;
 
 } 
 .topnav-right a:hover {
@@ -309,7 +311,7 @@ ul.credits a:hover {
 #date{
   font-family: rubik mono one, sans-serif;
   font-size: 13px;
-  line-height: 1.75rem;
+  line-height: 1.25rem;
   color: #2D2D2D;
   padding-bottom: 15px;
   text-align: left;
@@ -326,4 +328,45 @@ justify-content: flex-end;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  }
+
+
+.centered {
+  text-align: center;
+}  
+
+.pagination {
+display: inline-block;
+
+}
+  .pagination a {
+
+    color: black;
+    float: left;
+    padding: 8px 14px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 5px;
+    font-family: rubik, sans-serif;
+    margin-right: 5px;
+  }
+  
+  .pagination a.active {
+    background-color: #9ACACD;
+  font-weight: 600;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #CCE4E6; color: #fff;
+  }
+  
+  .pagination a.arrow:hover {background-color: #EAAE6A; color: #FFF; font-weight: 800;
+  }
+  
+  .pagination a.arrow {
+  color: #EAAE6A;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+  
   }
