@@ -1,3 +1,5 @@
+
+
 'use strict'
 
 function toggleIcon() {
@@ -16,3 +18,5 @@ function closeMobileMenu() {
 //when the page loads call toggleIcon;
 $(toggleIcon)
 $(closeMobileMenu)
+
+
