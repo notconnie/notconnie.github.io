@@ -1,7 +1,31 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   }
+
+
+
+
+  /* background for home back here -- body id */
+#main-background{
+  background-color: #3e4d34;
+  background-image:url(images/wht-400.png);
+  background-repeat: repeat;
+  color:rgb(40, 40, 40);
+  font-family: 'EB Garamond', serif; 
+}
+
+  /* background for Specific Page, change image url and body id */
+#page-background{
+  background-color: #3e4d34;
+  background-image:url(images/resized.png);
+  background-repeat: repeat;
+  color:rgb(40, 40, 40);
+  font-family: 'EB Garamond', serif; 
+}
+
+/* don't mess with anything below this note */
 
   #intro-page{
     background-image: url(images/bkgd-950px.svg);
@@ -9,9 +33,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 background-size: 70%;
-
   }
-
 
   #enter-container {
     display: none;
@@ -26,8 +48,7 @@ background-size: 70%;
     position:absolute;
     top: 42%;
     left: 41%;
-    
-  }
+      }
   
   #enter-container a{
     font-size: 1.75rem;
@@ -38,3 +59,104 @@ background-size: 70%;
     text-decoration: none;
     color: #FFF;
   }
+
+/* don't mess with anything above this note */
+
+
+
+
+.page-header {
+  margin-top: 6vh;
+margin-left: auto;
+}
+
+.page-header h2{
+  text-align: center;
+  letter-spacing: .25rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #FFF;
+
+}
+
+/* img class for header banner title situation at the top of the page */
+.header-logo{
+  margin: auto;
+
+}
+
+
+
+
+body {
+	font-family: 'EB Garamond', serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+ 	color: #34495e;
+	text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  flex: 1;
+justify-content: center;
+  align-items: center;
+	margin-top: 5px;
+	margin: auto;
+}
+.main-nav a {
+	padding: 12px 20px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+  color: #3e4d34;
+	font-size: 1.5em;
+}
+
+.main-nav a:hover {
+	color: #885135;
+  font-weight: 600;
+}
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: none;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
