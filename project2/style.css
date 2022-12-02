@@ -7,23 +7,6 @@
 
 
 
-  /* background for home back here -- body id */
-#main-background{
-  background-color: #3e4d34;
-  background-image:url(images/wht-400.png);
-  background-repeat: repeat;
-  color:rgb(40, 40, 40);
-  font-family: 'EB Garamond', serif; 
-}
-
-  /* background for Specific Page, change image url and body id */
-#page-background{
-  background-color: #3e4d34;
-  background-image:url(images/resized.png);
-  background-repeat: repeat;
-  color:rgb(40, 40, 40);
-  font-family: 'EB Garamond', serif; 
-}
 
 /* don't mess with anything below this note */
 
@@ -65,8 +48,31 @@ background-size: 70%;
 
 
 
+  /* background for home back here -- body id */
+  #main-background{
+    background-color: rgba(82, 97, 72, .35);
+    background-image:url(images/herb-pattern_wht-opac50.png);
+    background-repeat: repeat;
+    color:rgb(40, 40, 40);
+    font-family: 'EB Garamond', serif; 
+  }
+  
+    /* background for Specific Page, change image url and body id */
+  #page-background{
+    background-color: #3e4d34;
+    background-image:url();
+    background-repeat: repeat;
+    color:rgb(40, 40, 40);
+    font-family: 'EB Garamond', serif; 
+  }
+
+
 .page-header {
-  margin-top: 6vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 8vh;
 margin-left: auto;
 }
 
@@ -74,17 +80,22 @@ margin-left: auto;
   text-align: center;
   letter-spacing: .25rem;
   font-family: 'EB Garamond', serif;
-  font-size: 1.5rem;
+  font-size: 1.85rem;
   font-weight: 600;
   font-style: italic;
-  color: #FFF;
+  color: #3e4d34;
+  
 
 }
 
 /* img class for header banner title situation at the top of the page */
 .header-logo{
-  margin: auto;
-
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+  min-width: 40%;
+  height: auto;
+  padding: 30px;
 }
 
 
@@ -92,10 +103,11 @@ margin-left: auto;
 
 body {
 	font-family: 'EB Garamond', serif;
-	line-height: 1.6;
+	line-height: 1.2;
 	margin: 0;
 	min-height: 100vh;
 }
+
 ul {
   margin: 0;
   padding: 0;
@@ -107,21 +119,41 @@ a {
 	text-decoration: none;
 }
 
+
+
+.header1 {
+
+}
+
 .main-nav {
   display: flex;
-  flex: 1;
-justify-content: center;
+  flex-direction: row;
+  text-align: center;
   align-items: center;
-	margin-top: 5px;
-	margin: auto;
+  align-content: center;
+  margin-bottom: 15px;
+	border: none;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
 }
+
+.nav-link {
+  padding: 20px 20px;
+  flex: 25%;
+}
+
 .main-nav a {
-	padding: 12px 20px;
 	text-transform: uppercase;
 	text-align: center;
-	display: block;
   color: #3e4d34;
+  font-weight: 400;
 	font-size: 1.5em;
+  line-height: 1.1;
 }
 
 .main-nav a:hover {
@@ -129,20 +161,12 @@ justify-content: center;
   font-weight: 600;
 }
 
+.nav-link a.active {
+color: #000;
+font-weight: 700;
 
-.header {
-	padding-top: .5em;
-	padding-bottom: .5em;
-	border: none;
-	background-color: #f4f4f4;
-	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
+
 }
-
 
 
 
@@ -157,6 +181,30 @@ justify-content: center;
 /* ================================= 
   Media Queries
 ==================================== */
+
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 750px) {
+  .main-nav {
+    flex-direction: column;
+  }
+
+  .main-nav a {
+    font-size: 1.15em;
+    line-height: 1.1;
+  }
+
+  .page-header h2{
+    font-size: 1.45em;
+    letter-spacing: .10em;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+}
+
+
+
 
 
 
