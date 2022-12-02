@@ -22,22 +22,24 @@ background-size: 70%;
   #enter-container {
     display: none;
     color: #ffffff;
-    width: 8em;
-    text-align: center;
+    width: 30%;
     padding: 3% 5%;
     text-align: center;
     text-decoration: none;
     background-color: rgba(82, 97, 72, .75);
     border-radius: 0px;
     position:absolute;
-    top: 42%;
-    left: 41%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
       }
   
-  #enter-container a{
+  .enter-con-link {
     font-size: 1.75rem;
     font-family: eb garamond, serif;
     font-weight: 500;
+    line-height: 1.1;
     text-align: center;
     vertical-align: center;
     text-decoration: none;
