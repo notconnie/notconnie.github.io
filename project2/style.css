@@ -112,6 +112,7 @@ text-align: center;
 body {
 	font-family: 'EB Garamond', serif;
 	line-height: 1.2;
+letter-spacing: .035rem;
 	margin: 0;
 	min-height: 100vh;
 }
@@ -172,7 +173,7 @@ a {
 .nav-link a.active {
 color: #000;
 font-weight: 700;
-text-decoration: underline solid #526148 30%;
+text-decoration: underline solid #526148 25%;
 }
 
 
@@ -310,7 +311,69 @@ font-kerning: normal;
   }
 
 
+/* Start of Contact form stuffffff */
 
+input[type=text], select, textarea {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+    font-size: 1em;
+  padding: 15px;
+  border: 1px solid #526148;
+  border-radius: 4px;
+  box-sizing: border-box;
+letter-spacing: .035rem;
+margin-top: 10px;
+  margin-bottom: 16px;
+   resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3E4D34;
+  color: white;
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  padding: 12px 20px;
+  border: none;
+    border-radius: 4px;
+      	text-transform: uppercase;
+letter-spacing: .075rem;
+
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #885135;
+  letter-spacing: .125em;
+  	text-transform: uppercase;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(203,205,181,0.55);
+  padding: 20px;
+}
+
+/* end of contact form stuff */
+
+
+
+#community-orgs {
+  list-style-type: none;
+}
+
+#community-orgs a{
+  font-weight: 500;
+  color: #3d3d3d;
+  line-height: 2em;
+  }
+
+  
+#community-orgs a:hover{
+  color: #C68B22;
+  text-decoration: underline;
+
+}
 
 
 
