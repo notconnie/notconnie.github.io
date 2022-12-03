@@ -22,7 +22,7 @@
     	<header class="header1">
 
           <ul class="main-nav">
-              <li class="nav-link"><a class="active" href="home.html">Home</a></li>
+              <li class="nav-link"><a class="active-page" href="home.html">Home</a></li>
               <li class="nav-link"><a href="about.html">About</a></li>
               <li class="nav-link"><a href="community.html">Community</a></li>
               <li class="nav-link"><a href="contact.html">Contact</a></li>
@@ -68,9 +68,51 @@
 
               <br><br><br>
             
-              <img src="images/kimbo-on-the-microfarm.jpg" alt="image of a small black farm dog named Kimbo." title="Kimbo on the Microfarm :)">
-        </div>
 
+        
 
-
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img class="slide-img" src="images/kimbo-on-the-microfarm.jpg" alt="image of a small black farm dog named Kimbo." title="Kimbo on the Microfarm :)">
+                  <div class="text">kimbo on the microfarm</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img class="slide-img" src="images/dogheart-chickens-compressed.jpg" alt="chickens on the microfarm">
+                  <div class="text">the chickens</div>
+                </div>
+          
+                <div class="mySlides fade">
+                  <img class="slide-img" src="images/microfarm-03.jpg" alt="close up of plant babies"> 
+                <div class="text">plant babies</div>
+                </div>
+                
+                      <div class="mySlides fade">
+                        <img class="slide-img" src="images/drying-herbs.jpg" alt="various herbs drying in front of a window"> 
+                <div class="text">drying herbs</div>
+                </div>
+                      <div class="mySlides fade">
+                        <img class="slide-img" src="images/rabbit-with-dr-john.jpg" alt="a rabbit being held to the chest of a person wearing a blue shirt"> 
+                <div class="text">dr. john cuddlin' with a rabbit</div>
+                </div>
+                             
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              </div>        
+        
+        
+        
+       </div>
+       <script>
+        showSlides(slideIndex);
+      </script>
     </body>
