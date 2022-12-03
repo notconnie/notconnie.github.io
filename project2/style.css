@@ -377,6 +377,15 @@ input[type=submit]:hover {
 
 }
 
+.socials {
+  padding-right: 1em;
+  padding-left: 1em;
+  height: 3.5em;
+}
+.socials:hover {
+  transform: scaleX(-1);
+}
+
 /* img slideshow on home page starts here */
 
 .mySlides {
