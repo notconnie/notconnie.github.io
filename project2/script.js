@@ -34,7 +34,7 @@ function showSlides() {
    if(timeoutId) {
       clearTimeout(timeoutId);
    }
-  timeoutId = setTimeout(showSlides, 9000); // Change image every 9 seconds
+  timeoutId = setTimeout(showSlides, 8000); // Change image every x seconds
 }
 
 

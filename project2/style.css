@@ -46,6 +46,12 @@ background-size: 70%;
     color: #FFF;
   }
 
+  .enter-con-link :hover {
+    font-weight: 600;
+    letter-spacing: .1em;
+  }
+
+
 /* don't mess with anything above this note */
 
 
