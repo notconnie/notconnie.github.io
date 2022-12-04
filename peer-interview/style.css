@@ -1,12 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
 
-.green-div { background: #245B0A;
-    background: linear-gradient(to right, #245B0A 0%, #52D017 50%, #2B6D0C 100%);
-    width: 1000px;
-    padding: 25px;
-    
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 15px;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    }
-body {margin: 100px;}
+  header{
+    padding-bottom:3em;
+  }
+  
+  h1 {
+    font-family: calder-dark-grit, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 3em;
+    text-align: center;
+  line-height:1em;
+    margin:auto;
+  }
+  
+  h2 {
+    font-family: calder-lc-grit, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    line-height: 1em;
+    text-align: center;
+  }
+  
+img {
+    width: 100%;
+    height: auto;
+}
+  
+  .container1 {
+    position: relative;
+    left: 10%;
+    color: #000;
+    max-width: 35vw;
+   }
+
+   .container2 {
+    position: relative;
+    left: 30vw;
+    text-align: left;
+    color: #000;
+    list-style-type: none;
+    max-width: 60vw;
+
+
+}
+
+.left-side {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+
+.right-side {
+    position: absolute;
+    top: 35%;
+    right:5%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+  
+.answers {
+    list-style-type: square;
+font-family: calder-lc, sans-serif;
+font-weight: 400;
+font-size: 1.6em;
+line-height: 1.45em;
+  }
+
+
+  footer {
+    text-align: center;
+  }
+
+  footer a{
+text-decoration: none;
+  }
